@@ -133,7 +133,7 @@ $ docker build -t svendowideit/ambassador .
 
 By default, the build cache is based on results from previous builds on the machine
 on which you are building. The `--cache-from` option also allows you to use a
-build-cache that's distributed through an image registry refer to the
+build-cache that's distributed through an image registry. Refer to the
 [specifying external cache sources](commandline/build.md#specifying-external-cache-sources)
 section in the `docker build` command reference.
 
